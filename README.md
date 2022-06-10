@@ -3,11 +3,11 @@ Rock Paper Scissors is a hand game originated from China, usually played between
 2) Paper which can be done by a flat hand
 3) Scissors which can be done by forming a V with two fingers aka V sign.
 
-RULES
-Player whose choice is Rock over Scissors wins 1 point since Rock can destroy Scissors.
-Player whose choice is Paper over Rock wins 1 point since Paper can cover Rock.
-Player whose choice is Scisors over Paper wins 1 point since Scissors can cut Paper.
+RULES <br />
+Player whose choice is Rock over Scissors wins 1 point since Rock can destroy Scissors.<br />
+Player whose choice is Paper over Rock wins 1 point since Paper can cover Rock.<br/>
+Player whose choice is Scisors over Paper wins 1 point since Scissors can cut Paper.<br />
 
-I implement this exercise in order to put skills I learned from TOP(The Odin Project) foundations courses at work.
+I implement this exercise in order to put skills I learned from TOP(The Odin Project) foundations courses at work.<br />
 
 Enjoy the game!
