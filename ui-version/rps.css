@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto',Arial,sans-serif;
+    background: #1F2937;
+}
+html,body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* img{
+    width: 100px;
+    height: 100px;
+} */
+.player_score, .players{
+    color: rgb(0,0,0);
+}
+.player_score{
+    font-size: 2em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.container_1{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.playerContainer{
+    background:  #FAF8FA;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    font-weight: 800;
+}
+.player_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playerLogo{
+    margin-right: 1vw;
+}
+.players{
+    text-align: center;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.playerChoiceContainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* button{ */
+    /* width: 60px;
+    height: 100px; */
+    /* outline: none;
+    background: none;
+    border: none; */
+    /* padding: none; */
+    /* font-size: 5.5em;
+    cursor: pointer;
+    transition: 100ms;
+} */
+.player_choice:hover{
+    transform: scale(1.2);
+}
+.player_choice{
+    outline: none;
+    background: none;
+    border: none;
+    /* padding: none; */
+    font-size: 5.5em;
+    cursor: pointer;
+    transition: 100ms;
+}
+.computer_choice{
+    outline: none;
+    background: none;
+    border: none;
+    /* padding: none; */
+    font-size: 5.5em;
+    /* cursor: pointer; */
+    transition: 100ms;
+}
+
+#msgBoard{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background: #FAF8FA;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    /* margin: 20px; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 3em;
+    color: rgb(0,0,0);
+    /* padding: 0 auto; */
+}
+.msgboard{
+    font-size: 0.5em;
+}

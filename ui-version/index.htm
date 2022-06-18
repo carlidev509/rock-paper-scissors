@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="icon" href="../img/rps_.png">
+</head>
+<body>
+
+    <!-- <div class="container">
+        <h1>rock</h1>
+    </div> -->
+    
+    <div class="container">
+        
+
+        <div class="container_1">
+
+            <div class="playerContainer">
+                <h1 class="players">Player</h1>
+
+                <div class="player_info">
+                    <div class="playerLogo">
+                        <img class="logo" src="../img/user_icon.png" alt="This is the player icon image">
+                    </div>
+
+                    <div class="player_score" id="plScore">
+                        Score: 0
+                    </div>                    
+                </div>
+
+                <div class="playerChoiceContainer">
+                    <button class="player_choice" value="rock" title="Rock">✊</button>
+                    <button class="player_choice" value="paper" title="Paper">✋</button>
+                    <button  class="player_choice" value="scissors" title="Scissors">✌</button>
+                </div>
+
+            </div>
+
+            <div class="playerContainer">
+                <h1 class="players">Computer</h1>
+
+                <div class="player_info">
+                    <div class="playerLogo">
+                        <img class="logo" src="../img/3-Gray-Computer-icon.png" alt="This is the desktop icon image">
+                    </div>
+
+                    <div class="player_score" id="computer_score">
+                        Score: 0
+                    </div>                    
+                </div>
+
+                <div class="playerChoiceContainer">
+                    <button class="computer_choice" value="rock">✊</button>
+                    <button class="computer_choice" value="paper">✋</button>
+                    <button class="computer_choice" value="scissors">✌</button>
+                </div>
+
+            </div>
+
+            
+            
+        </div>
+        <div id="msgBoard">
+            <p>Message</p>
+
+            <p class="msgboard"></p>
+
+        </div>
+    </div>
+
+
+    <!-- The application -->
+    <script type="text/javascript" src="rps.js"></script>
+</body>
+</html>
